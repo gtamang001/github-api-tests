@@ -1,0 +1,17 @@
+name: test api download 
+on: 
+  push: 
+job: 
+  download-artifact: 
+    runs-on: ubuntu-latest 
+    steps: 
+      - name: download with curl 
+        run: | 
+          echo "Test curl "
+          curl https://api.github.com/repos/gtamang001/github-actions-test/actions/artifacts/122287091/zip
+          echo "post curl "
+      - name: test files 
+        run: |
+          echo "Test post "
+          ls -ltr 
+
