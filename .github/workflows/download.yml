@@ -4,7 +4,9 @@ on:
 
 jobs: 
   download-artifact: 
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write 
     steps: 
       - name: download with curl 
         run: | 
@@ -15,4 +17,3 @@ jobs:
         run: |
           echo "Test post "
           ls -ltr 
-
