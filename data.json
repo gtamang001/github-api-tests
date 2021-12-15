@@ -1,0 +1,19 @@
+{
+    "repo" : "globeop-mvn-githubtesting-dev-local",
+    "path": "/com/ssctech/app",
+    "created": "gitlab-publish",
+    "lastModified": "2021-11-05T13:57:47.002Z",
+    "modifiedBy": "gitlab-publish",
+    "lastUpdated": "2021-11-05T13:57:47.002Z",
+    "children": [ {
+        "uri":"/app-1.3.8-RELEASE-all.tar",
+        "folder": false
+    }, {
+        "uri": "/app-1.3.8-RELEASE.jar",
+        "folder": false 
+    }, {
+        "uri":"/app-1.3.8-RELEASE.pom",
+        "folder": false 
+    } ],
+    "uri": "https://artifacts-scm.dstcorp.net/artifactory/api/storage/globeop-mvn-githubtestingdev-local/com/ssctech/app/1.3.8-RELEASE"
+}
